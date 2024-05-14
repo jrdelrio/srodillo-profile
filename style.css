@@ -1,6 +1,16 @@
 body {
-    background: #202020;
+    background: #fff;
   }
+
+  .intro {
+    color: black; /* Color verde claro típico de consola */
+    padding: 15px 0 15px 0;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+}
 
 .header-img {
     width: 100%;
@@ -94,7 +104,7 @@ body {
     background-color: #000;
     padding: 20px;
     text-align: center;
-    color: #5a5a5a;
+    color: #aaaaaa;
 }
 
 .social-media {
