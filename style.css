@@ -3,7 +3,7 @@ body {
   }
 
   .intro {
-    color: black; /* Color verde claro típico de consola */
+    color: black;
     padding: 15px 0 15px 0;
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
