@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Check my portfolio and my recient projects.">
     <meta property="og:title" content="Sebastián Rodillo's Portfolio">
-    <meta property="og:description" content="Explora mis proyectos y trabajos recientes en diseño gráfico y creación de videos.">
+    <meta property="og:description" content="Designer portfolio.">
     <meta property="og:image" content="https://github.com/jrdelrio/srodillo-profile/blob/main/images/logito.jpg">
-    <meta property="og:image:secure_url" content="https://github.com/jrdelrio/srodillo-profile/blob/main/images/logito.jpg">
+    <meta property="og:image:secure_url"
+        content="https://github.com/jrdelrio/srodillo-profile/blob/main/images/logito.jpg">
     <meta property="og:url" content="https://jrdelrio.github.io/srodillo-profile/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Sebastián Rodillo | Designer">
@@ -25,9 +26,49 @@
 
 <body>
     <div class="wrapper container">
-        <div class="intro">
-            Sebastián Rodillo. Designer.
+        <!--off canvas-->
+        <button class="btn info-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            <img src="./images/logito-info.jpg">
+            <img src="./icons/info-icon.png" class="info-icon">
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">About me</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    👋 hello,
+                    <br/>
+                    I'm Sebastián Rodillo, graphic designer based in Germany.
+                    <br/>
+                    Illustration and animation are my specialty, but I also enjoy working in video production, branding
+                    and sound.
+                    <br/>
+                    <br/>
+                    CONTACT
+                    <br/>
+                    srodillof@gmail.com <a href="mailto:srodillof@gmail.com" target="_blank">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                    <div class="text-center">
+                        <img src="./images/rede-cartel.jpg" class="w-75 mt-3 mx-3">
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="intro">
+            <h1>Sebastián Rodillo.</h1>
+            <br/>
+            <h2>Designer.</h2>
+        </div>
+
         <div class="header mb-3">
             <img src="./images/header.jpg" class="header-img">
         </div>
@@ -71,11 +112,11 @@
             </div>
             <div class="col-6" style="color: black;">↖ Liquid Matrix project presentation for the Lexus Design Award
                 2019 contest
-
+                <br/>
                 Design Team: Felipe Barrientos, Kaleb Cardenas, Diego Gajardo, Lucas Margotta, Carlos Sfeir
-
+                <br/>
                 Filmmaker: Sebastián Rodillo
-
+                <br/>
                 Music: Tomás Gubbins</div>
         </div>
 
@@ -148,9 +189,9 @@
         </div>
     </div>
     <div class="footer mt-3">
-        Made with ❤️ by Sebastián Rodillo ®
+        Made with ❤️ by jrdelrio®
         <div class="social-media">
-            <a href="mailto:srofillof@gmail.com" target="_blank">
+            <a href="mailto:jrdelriodom@gmail.com" target="_blank">
                 <i class="fa-regular fa-envelope"></i>
             </a>
 
@@ -160,7 +201,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
