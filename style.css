@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 
-.info-button:hover .info-icon {
+/* .info-button:hover .info-icon {
     transform: scale(1.2);
     filter: grayscale(100%) invert(100%) brightness(1.2);
 }
@@ -23,7 +23,7 @@ body {
     top: 7%;
     height: 10%;
     transition: transform 0.9s, filter 0.9s;
-}
+} */
 
 .info-button img {
     max-width: 12vw;
