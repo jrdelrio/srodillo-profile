@@ -83,6 +83,10 @@ body {
     height: 100%;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 /*masonry*/
 .masonry-grid {
     -webkit-column-count: 3;
